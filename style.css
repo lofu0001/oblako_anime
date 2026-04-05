@@ -55,3 +55,30 @@ footer {
     padding: 20px 0;
     color: #cbd5e1;
 }
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.anime-item {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    text-align: center;
+    max-width: 200px;
+}
+.anime-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.anime-item h3 {
+    margin: 10px 0 5px 0;
+    color: #93c5fd;
+}
+.anime-item p {
+    margin: 0;
+    font-size: 0.9rem;
+}
